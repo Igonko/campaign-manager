@@ -99,10 +99,3 @@ The Campaign Manager Application allows users to manage campaigns.  It includes 
 
 * Frontend: [https://campaign-manager-omega.vercel.app/en](https://campaign-manager-omega.vercel.app/en)
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues.
-
-## License
-
-[Specify the license here]
