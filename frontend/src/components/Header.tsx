@@ -3,12 +3,11 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
-import { useTranslation } from "react-i18next";
-import "@/lib/i18n";
+import { useTranslations } from "next-intl";
 
 export default function Header() {
   const pathname = usePathname();
-  const { t } = useTranslation("common");
+  const t = useTranslations("Header");
 
   return (
     <header className="w-full shadow-md p-4 flex justify-between items-center">

@@ -1,0 +1,28 @@
+{
+  "HomePage": {
+    "welcome": "Welcome to Campaign Manager",
+    "description": "Easily create and manage marketing campaigns with media assets like images and videos.",
+    "instruction": "Use the navigation above to view existing campaigns or create a new one."
+  },
+  "Header": {
+    "home_link": "Home",
+    "campaigns_link": "Campaigns",
+    "create_link": "Create"
+  },
+  "Create-campaign": {
+    "upload_error": "File upload failed",
+    "upload_prompt": "Please upload a media file",
+    "name": "Name",
+    "targetUrl": "Target URL",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "creating": "Creating...",
+    "create_campaign": "Create Campaign",
+    "campaign_created": "Campaign created!",
+    "error_loading": "Error loading campaigns"
+  },
+  "campaigns": "Campaigns",
+  "media": "Media",
+  "visit": "Visit",
+  "loading": "Loading campaigns..."
+}

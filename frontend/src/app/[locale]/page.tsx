@@ -1,9 +1,8 @@
 "use client";
-import { useTranslation } from "react-i18next";
-import "@/lib/i18n";
+import { useTranslations } from "next-intl";
 
 export default function HomePage() {
-  const { t } = useTranslation("common");
+  const t = useTranslations("HomePage");
 
   return (
     <main className="max-w-2xl mx-auto mt-10 text-center">

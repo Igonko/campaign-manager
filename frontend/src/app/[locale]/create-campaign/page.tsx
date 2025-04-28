@@ -2,12 +2,10 @@
 import { useState } from "react";
 import { useMutation } from "@tanstack/react-query";
 import { createCampaign } from "@/lib/api";
-import { useTranslation } from "react-i18next";
-import "@/lib/i18n";
-
+import { useTranslations } from "next-intl";
 
 export default function CreateCampaignPage() {
-  const { t } = useTranslation("common");
+  const t = useTranslations("Create-campaign");
 
   const [formData, setFormData] = useState({
     name: "",
