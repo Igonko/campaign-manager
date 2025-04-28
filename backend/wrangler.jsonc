@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "my-app",
+  "name": "campaign-manager-backend",
   "main": "src/index.ts",
   "compatibility_date": "2025-04-23"
   // "compatibility_flags": [
