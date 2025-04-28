@@ -5,11 +5,10 @@ import {
 } from "@tanstack/react-query";
 import { fetchCampaigns } from "@/lib/api";
 import CampaignTable from "./CampaignTable";
-import { getDictionary } from "@/lib/getDictionary";
+import { getTranslations } from "next-intl/server";
 
 export default async function CampaignListPage() {
-  const dict = await getDictionary("en");
-
+  const t = await getTranslations("Campaigns");
   const queryClient = new QueryClient();
   await queryClient.prefetchQuery({
     queryKey: ["campaigns"],
@@ -19,7 +18,7 @@ export default async function CampaignListPage() {
   return (
     <HydrationBoundary state={dehydrate(queryClient)}>
       <div className="p-6 max-w-4xl mx-auto">
-        <h1 className="text-2xl font-bold mb-4">{dict["campaigns"]}</h1>
+        <h1 className="text-2xl font-bold mb-4">{t("campaigns")}</h1>
         <CampaignTable />
       </div>
     </HydrationBoundary>
