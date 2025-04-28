@@ -21,8 +21,14 @@
     "campaign_created": "Campaign created!",
     "error_loading": "Error loading campaigns"
   },
-  "campaigns": "Campaigns",
-  "media": "Media",
-  "visit": "Visit",
-  "loading": "Loading campaigns..."
+  "Campaigns": {
+    "name": "Name",
+    "targetUrl": "Target URL",
+    "campaigns": "Campaigns",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "media": "Media",
+    "visit": "Visit",
+    "loading": "Loading campaigns..."
+  }
 }

@@ -2,10 +2,10 @@
 
 import { useQuery } from "@tanstack/react-query";
 import { CampaignWithAsset, fetchCampaigns } from "@/lib/api";
-import { useTranslation } from "react-i18next";
+import { useTranslations } from "next-intl";
 
 export default function CampaignTable() {
-  const { t } = useTranslation("common");
+  const t = useTranslations("Campaigns");
 
   const { data, isLoading, isError } = useQuery<CampaignWithAsset[]>({
     queryKey: ["campaigns"],
