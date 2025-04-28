@@ -1,0 +1,12 @@
+name = "campaign-manager-frontend"
+main = "src/index.ts"
+compatibility_date = "2024-04-28"
+
+[build]
+command = "npm install && npm run build"
+
+[deploy]
+account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+
+[vars]
+NODE_ENV = "production"
